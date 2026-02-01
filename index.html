@@ -2,10 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Top Navigation -->
+  <nav class="top-nav" role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#bio">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-inner">
+      <h1>Zoe Smith</h1>
+      <p>Web Development Student • Future Digital Media & Design Specialist</p>
+    </div>
+  </section>
+
+  <!-- Bio Section -->
+  <section id="bio" class="bio">
+    <h2>About Me</h2>
+    <p>
+      I’m a web development student building user friendly projects while utilizing HTML, CSS, and AI tools.
+      This portfolio will evolve as my skills grow.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript Basics</li>
+      <li>AI Tools</li>
+      <li>Responsive Design</li>
+      <li>GitHub</li>
+      <li>SEO Knowledge </li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project One</h3>
+      <p>Description of your first project.</p>
+    </div>
+
+    <div class="project">
+      <h3>Project Two</h3>
+      <p>Description of your second project.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact me">
+    <h2>Contact Me</h2>
+    <p>
+      Email:
+      <a href="mailto:zoersmith03@gmail.com">zoersmith03@gmail.com</a>
+    </p>
+
+    <!-- Social Buttons: simple buttons with inline SVG icons -->
+    <div class="social-buttons">
+      <!-- LinkedIn: replace href with your profile URL -->
+      <a class="social-btn linkedin" href="https://www.linkedin.com/in/zoe-smith-aab155316/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <!-- Clean 'in' LinkedIn icon: white background with red 'in' text -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+          <rect x="3" y="3" width="18" height="18" rx="3" fill="#ffffff" />
+          <text x="50%" y="58%" text-anchor="middle" fill="#b11212" font-family="'Montserrat', sans-serif" font-weight="700" font-size="9" style="pointer-events:none">in</text>
+        </svg>
+        <span class="sr-only">LinkedIn</span>
+      </a>
+
+      <!-- Instagram: replace href with your profile URL -->
+      <a class="social-btn instagram" href="https://www.instagram.com/zoersmithonline/?hl=en" target="_blank" rel="noopener" aria-label="Instagram">
+        <!-- Two-tone Instagram: white background with red lens and flash -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5" fill="#ffffff" />
+          <circle cx="12" cy="12" r="3" fill="#b11212" />
+          <circle cx="17" cy="7" r="1" fill="#b11212" />
+        </svg>
+        <span class="sr-only">Instagram</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Zoe Smith
+  </footer>
 </body>
 </html>
