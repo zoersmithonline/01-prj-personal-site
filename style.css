@@ -95,6 +95,22 @@ h2 {
   margin: 0 auto;
 }
 
+.hero-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 25px;
+
+  /* grunge metal glow */
+  border: 2px solid rgba(177, 18, 18, 0.8);
+  box-shadow:
+    0 0 0 4px rgba(143, 15, 15, 0.35),
+    0 0 18px 6px rgba(177, 18, 18, 0.55),
+    0 0 40px rgba(177, 18, 18, 0.35),
+    inset 0 0 12px rgba(0, 0, 0, 0.7);
+}
+
 .hero h1 {
   font-size: 3.5rem;
   margin-bottom: 20px;
@@ -253,4 +269,3 @@ footer a {
   color: inherit;
   text-decoration: none;
 }
-
